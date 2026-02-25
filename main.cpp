@@ -1,4 +1,3 @@
-
 /*! fichero de Fizzbuzz.
  *  Programa que contiene algunas pruebas con las reglas del juego fizzbuzz.
  */
