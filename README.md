@@ -167,6 +167,7 @@ git branch --list -a        # ver locales y remotas
 3. Vuelve a `master`: `git switch master`
 4. Fusiona: `git merge feature_x`
 
+
 > **Consejo:** para tener la branch nueva en el repositorio remoto
 
 ```bash
