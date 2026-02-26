@@ -1,8 +1,6 @@
 
 # Git Introducción 
 
----
-
 ## ¿Qué es Git?
 
 Git es un sistema de **control de versiones distribuido**, rápido y escalable.
@@ -57,9 +55,6 @@ git config --global user.name "KenjiCasado"
 git config --global user.email "kenji.casado@opendeusto.com"
 git config --global color.ui auto
 ```
-```
-```
-
 **Eligue tu editor** :   
 
 ```bash
@@ -161,6 +156,7 @@ git merge <nombre>          # Fusionar la rama <nombre> en la rama actual
 2. Haz tu trabajo y confirma
 3. Vuelve a `master`: `git checkout master`
 4. Fusiona: `git merge feature_x`
+
 
 > **Consejo:** para tener la branch nueva en el repositorio remoto
 
