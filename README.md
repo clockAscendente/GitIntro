@@ -1,5 +1,6 @@
 
 # Git Introducción 
+
 - [First commit](https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290#diff-2b7814d3fca2e99e56c51b6ff2aa313ea6e9da6424804240aa8ad891fdfe0900)
 ---
 
@@ -122,12 +123,11 @@ git add -p <archivo>       # Seleccionar interactivamente qué cambios preparar
 ```bash
 git add README.md
 ```
-
-
 Para deshacer la preparación de un archivo:
 
 ```bash
-git rm --cached <nombrearchivo>
+git restore --staged <nombrearchivo>
+git restore --staged .
 ```
 
 ---
@@ -150,16 +150,16 @@ Una rama es una ruta independiente de desarrollo. Usa ramas para trabajar en car
 ### Comandos Comunes
 
 ```bash
-git checkout -b <nombre>    # Crear y cambiar a una nueva rama
-git checkout <nombre>       # Cambiar a una rama existente
+git switch -c <nombre>    # Crear y cambiar a una nueva rama
+git switch <nombre>       # Cambiar a una rama existente
 git merge <nombre>          # Fusionar la rama <nombre> en la rama actual
 ```
 
 **Flujo típico:**
 
-1. Crea una rama de característica: `git checkout -b feature_x`
+1. Crea una rama de característica: `git switch -c feature_x`
 2. Haz tu trabajo y confirma
-3. Vuelve a `master`: `git checkout master`
+3. Vuelve a `master`: `git switch master`
 4. Fusiona: `git merge feature_x`
 
 > **Consejo:** para tener la branch nueva en el repositorio remoto
@@ -167,5 +167,3 @@ git merge <nombre>          # Fusionar la rama <nombre> en la rama actual
 ```bash
 git push -u origin feature_x # Crear y cambiar a una nueva rama
 ```
-
-
