@@ -163,5 +163,10 @@ git merge <nombre>          # Fusionar la rama <nombre> en la rama actual
 ```bash
 git push -u origin feature_x # Crear y cambiar a una nueva rama
 ```
+### Releases
+```bash
+git tag -a v1.0.0 -m "tu nombre de la release"
+git push origin v1.0.0
+```
 
 
