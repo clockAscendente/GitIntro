@@ -57,8 +57,7 @@ git config --global core.editor <"editor-ejecutable">
 git config --global user.name "KenjiCasado"
 git config --global user.email "kenji.casado@opendeusto.es"
 git config --global color.ui auto
-```
-```
+git config --global core.editor "code --wait" 
 ```
 
 **Eligue tu editor** :   
