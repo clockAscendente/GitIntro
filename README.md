@@ -126,7 +126,7 @@ git add README.md
 Para deshacer la preparación de un archivo:
 
 ```bash
-git restore --staged <nombrearchivo>
+git restore --staged <nombrearchivo> # se puede usar despues del primer commit
 git restore --staged .
 ```
 
