@@ -110,7 +110,7 @@ git status
 
 ## Agregar files (git add)
 
-Añadir nuestros cambios actuales y preparalos para nuestro proxima confirmacion (commit)
+Añadir nuestros cambios actuales y preparalos para nuestra proxima confirmacion (commit)
 
 ```bash
 git add <archivo>          # Preparar un archivo específico
