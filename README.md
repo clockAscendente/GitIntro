@@ -55,7 +55,7 @@ git config --global core.editor <"editor-ejecutable">
 **Ejemplo** : 
 ```bash
 git config --global user.name "KenjiCasado"
-git config --global user.email "kenji.casado@opendeusto.com"
+git config --global user.email "kenji.casado@opendeusto.es"
 git config --global color.ui auto
 ```
 ```
