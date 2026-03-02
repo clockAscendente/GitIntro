@@ -154,7 +154,11 @@ Una rama es una ruta independiente de desarrollo. Usa ramas para trabajar en car
 git switch -c <nombre>    # Crear y cambiar a una nueva rama
 git switch <nombre>       # Cambiar a una rama existente
 git merge <nombre>          # Fusionar la rama <nombre> en la rama actual
+git branch --list         # para ver las branches locales
+git branch --list -a        # ver locales y remotas
 ```
+
+> **Tip:** Git checkout y git switch son muy similares dado que git checkout es la version antigua que engloba la funcionalidad de git switch y git restore
 
 **Flujo típico:**
 
