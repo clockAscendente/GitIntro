@@ -115,6 +115,7 @@ Añadir nuestros cambios actuales y preparalos para nuestra proxima confirmacion
 ```bash
 git add <archivo>          # Preparar un archivo específico
 git add -A              # Preparar todos los cambios (excepto archivos ignorados)
+git add .                # exactamente lo mismo que git add -A
 git add -p <archivo>       # Seleccionar interactivamente qué cambios preparar
 ```
 
