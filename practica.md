@@ -1,6 +1,6 @@
 ## Lista de clientes de Git
-https://git-fork.com/
-https://github.com/sourcegit-scm/sourcegit
+- https://git-fork.com/
+- https://github.com/sourcegit-scm/sourcegit
 
 ## Implementar fizzbuzz en parejas o en pequeños grupos
 
