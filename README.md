@@ -50,6 +50,8 @@ git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
 git config --global color.ui auto
 git config --global core.editor <"editor-ejecutable"> 
+git config --global merge.tool code
+
 ```
 
 **Ejemplo** : 
