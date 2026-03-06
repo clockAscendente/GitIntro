@@ -85,8 +85,10 @@ Crear un Repositorio vacio o reinicializar uno existente:
 git init
 ```
 
+### Para añadir un repositorio local a remote 
 ```bash
 git remote add origin https://github.com/tu_usuario/tu_repo.git
+git push -u origin main
 ```
 
 Esto crea un subdirectorio `.git` que define y gestiona el repositorio.
@@ -149,7 +151,6 @@ git commit -m '<mensaje>'   # Confirma con un mensaje en línea
 ```
 
 ---
-
 ## Ramas 
 
 Una rama es una ruta independiente de desarrollo. Usa ramas para trabajar en características de forma aislada sin afectar la base de código principal. Una vez estable, fusiona la rama de vuelta.
@@ -175,22 +176,17 @@ git branch --list -a        # ver locales y remotas
 
 > **Consejo:** para tener la branch nueva en el repositorio remoto
 
+### PUSH
 ```bash
 git push -u origin feature_x # pushear la branch local al repositorio remoto
 ```
 
-
-
+### PULL
 ```bash
 git pull -u origin branch_nombre # Descarga los cambios más actuales de la branch remota y los fusiona 
 ```
-
 
 ### FETCH
 ```bash
 git fetch origin  # sincronizarse con el 
 ```
-
-
-
-
