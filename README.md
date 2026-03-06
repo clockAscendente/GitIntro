@@ -85,6 +85,10 @@ Crear un Repositorio vacio o reinicializar uno existente:
 git init
 ```
 
+```bash
+git remote add origin https://github.com/tu_usuario/tu_repo.git
+```
+
 Esto crea un subdirectorio `.git` que define y gestiona el repositorio.
 
 ---
@@ -172,5 +176,21 @@ git branch --list -a        # ver locales y remotas
 > **Consejo:** para tener la branch nueva en el repositorio remoto
 
 ```bash
-git push -u origin feature_x # Crear y cambiar a una nueva rama
+git push -u origin feature_x # pushear la branch local al repositorio remoto
 ```
+
+
+
+```bash
+git pull -u origin branch_nombre # Descarga los cambios más actuales de la branch remota y los fusiona 
+```
+
+
+### FETCH
+```bash
+git fetch origin  # sincronizarse con el 
+```
+
+
+
+
